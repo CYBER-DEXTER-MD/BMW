@@ -8,10 +8,10 @@ const stickerCommand = async (m, gss) => {
   const [cmd, ...args] = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ') : ['', ''];
   const customMessage = args.join(' '); // Combine all arguments into a message
 
-  const imageUrl = 'https://i.ibb.co/XZ8y9DZ/6d014fccb4cd6a1e4a10c2fc9a0b5237.jpg'; // Your image URL
+  const imageUrl = 'https://i.ibb.co/Hp5PY0n/55335c708ac05d8f469894d08e2671fa.jpg'; // Your image URL
 
   // Handle dexter command to send a message with an image and custom message
-  if (cmd === 'dexter') {
+  if (cmd === 'Cyber,dexter') {
     if (m.isGroup) {
       const groupMetadata = await gss.groupMetadata(m.from); // Get group metadata
       const groupName = groupMetadata.subject; // Get the group name
@@ -24,8 +24,8 @@ const stickerCommand = async (m, gss) => {
 
 *_ඔයා කැමතිනම් මාව save දා ගන්න පහලින් මගෙ information ඇත save දලා save කියලා massage එකක් දන්න එත කොට ඔයාවත් save වෙනවා 🌝_*
 
-*NAME = REAL DEXTER*
-*FROM = අම්පාර*
+*NAME = REAL CYBER-DEXTER*
+*FROM = THISSAMAHARAMA*
 *වයස = 17*
 `;
 
